@@ -1,21 +1,24 @@
-let color = 2;
+let color = "green";
 
 switch (color) {
-    case 1:
-        console.log("red")
-        break;
-    case 2:
-        console.log("blue")
-        break;
-    case 2:
-        console.log("green")
-        break;    
-    case 4:
-        console.log("yellow")
-        break; 
-    default:
-        console.log("no color")
-        break;
+	case "yellow":
+		console.log("yellow color");
+		break;
+	case "red":
+		console.log("red color");
+		break;
+	case "blue":
+		console.log("blue color");
+		break;
+	case "green":
+		console.log("green color");
+		break;
+	case "black":
+		console.log("black color");
+		break;
+	default:
+		console.log("no known color");
+		break;
 }
 
 
@@ -52,7 +55,7 @@ switch (color) {
     case 2:
         console.log("orange")
         break;
-    case 2:
+    case 3:
         console.log("strawberry")
         break;    
     case 4:
@@ -97,4 +100,4 @@ switch (true) {
 }
 
 
-situation like (Percentage Complete) task is prefer to use if else  statement also i prefer if else statement over swith because for me its easy read and understand .
+// situation like (Percentage Complete) task is prefer to use if else  statement also i prefer if else statement over swith because for me its easy read and understand .
